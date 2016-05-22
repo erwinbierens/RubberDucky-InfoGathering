@@ -1,4 +1,4 @@
-				Information Gathering Script
+		Information Gathering Script
       _      _      _      USB       _      _      _
    __(.)< __(.)> __(.)=   Rubber   >(.)__ <(.)__ =(.)__
    \___)  \___)  \___)    Ducky!    (___/  (___/  (___/ 
