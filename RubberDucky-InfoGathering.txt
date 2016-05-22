@@ -2,6 +2,7 @@ DEFAULT_DELAY 25
 REM Target: WINDOWS 10, WINDOWS 8(.1) and WINDOWS 7
 REM Author: Erwin Bierens
 REM URL: https://erwinbierens.com
+REM Version: 1.0
 DELAY 1000
 REM --> Minimize all windows
 WINDOWS d
@@ -25,7 +26,7 @@ DELAY 400
 STRING for /f "tokens=3 delims= " %A in ('echo list volume ^| diskpart ^| findstr "DUCKY"') do (set DUCKYdrive=%A:)
 ENTER
 DELAY 200
-STRING set DUCKYdrive=%DUCKYdrive%\MrGraysRubberHacks
+STRING set DUCKYdrive=%DUCKYdrive%\Tools
 ENTER
 DELAY 200
 REM Launch bat file for al information gathering tools
