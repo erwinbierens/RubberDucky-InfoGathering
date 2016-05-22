@@ -3,9 +3,10 @@
    __(.)< __(.)> __(.)=   Rubber   >(.)__ <(.)__ =(.)__
    \___)  \___)  \___)    Ducky!    (___/  (___/  (___/ 
 
-# Target: WINDOWS 10, WINDOWS 8(.1) and WINDOWS 7
-# Author: Erwin Bierens
-# URL:	https://erwinbierens.com
+# Target: 	WINDOWS 10, WINDOWS 8(.1) and WINDOWS 7
+# Author: 	Erwin Bierens
+# URL:		https://erwinbierens.com
+# Version: 	1.0
 
 # Prerquisites:
 # Rubber Ducky compiler (https://github.com/hak5darren/USB-Rubber-Ducky)
@@ -23,4 +24,4 @@ C:\Users\erwin\Downloads\USB-Rubber-Ducky-master\USB-Rubber-Ducky-master\Encoder
 
 # Make sure you have the cardreader with sdcard inserted, Replace E:\ for the right disk
 
-# Copy the Tools folder to your SD card. 
+# Copy the Tools folder and the inject.bin to your SD card. 
