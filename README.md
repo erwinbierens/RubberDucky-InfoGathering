@@ -1,8 +1,8 @@
-		Information Gathering Script
-      _      _      _      USB       _      _      _
-   __(.)< __(.)> __(.)=   Rubber   >(.)__ <(.)__ =(.)__
-   \___)  \___)  \___)    Ducky!    (___/  (___/  (___/ 
-
+REM		Information Gathering Script
+REM      _      _      _      USB       _      _      _
+REM   __(.)< __(.)> __(.)=   Rubber   >(.)__ <(.)__ =(.)__
+REM   \___)  \___)  \___)    Ducky!    (___/  (___/  (___/ 
+REM
 # Target: 	WINDOWS 10, WINDOWS 8(.1) and WINDOWS 7
 # Author: 	Erwin Bierens
 # URL:		https://erwinbierens.com
